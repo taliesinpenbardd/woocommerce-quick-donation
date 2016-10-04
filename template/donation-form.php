@@ -11,11 +11,11 @@
 
     <table>
         <tr>
-            <td> Donation Project </td>
+            <td><?php _e( 'Donation Project', WC_QD_TXT ); ?></td>
             <td> <?php echo $donation_box; ?></td>
         </tr>
         <tr>
-            <td>Donation Amount <?php echo $currency; ?></td>
+            <td><?php _e( 'Donation Amount', WC_QD_TXT ); ?> <?php echo $currency; ?></td>
             <td><?php echo $donation_price; ?></td>
         </tr>
         <tr>
